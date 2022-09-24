@@ -1,0 +1,15 @@
+console.log("Hello world");
+const ourPlanetName = 'Земля';
+console.log(ourPlanetName);
+let TimeUser = '12:19';
+console.log(TimeUser);
+const number = '15';
+console.log (number);
+let optionPay = "Оплата";
+console.log (optionPay);
+const UserName = 'Александра';
+console.log (UserName);
+const SurnameUser = 'Мышакина';
+console.log (SurnameUser);
+const UserName_2 = 'Евгеньевна';
+console.log (UserName_2);
