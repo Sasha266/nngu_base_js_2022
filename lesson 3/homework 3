@@ -1,0 +1,21 @@
+console.log("кот" > "код"); /*сравниваем по символ, не совпадает на последней букве*/
+console.log("2" + 2 * "2"); /* 222 тк "2" - символ */
+console.log(undefined == null); /* не строгое сравнение */ /* равен только себе и undefined */
+console.log(undefined != null); /* ? */
+console.log(null == 0); /* равен только себе и undefined */
+console.log(2 > "3"); /* */
+console.log(null - false + true); /* 1, null - ничего, true - 1, false - 0 */
+console.log(1/"I"); /* NaN*/
+console.log("2" * "3"); /* 23, тк как это  2 и 3 в этом случае строки */
+console.log(4 + 5 +"О"); /* 9О, тк 4 и 5 цифры, О строка */
+console.log("I" + 4 + 5); /* 45I, тк 4 и 5 цифры, I строка и стоит в начале*/
+console.log("4" - 2); 
+console.log("4" - "4x"); 
+console.log("23" == 23);  
+console.log(null == false); /* неверно, тк null равен только себе и undefined */
+console.log("-4" / 0 + 1); 
+console.log(null + 1); /* 1, тк null - ничего */
+console.log(undefined + null); /* 1 */
+console.log(1 === "1"); /* совпадает */
+console.log("2"> 10); 
+console.log(NaN == undefined); 
